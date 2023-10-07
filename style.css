@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --Dark-green: #3A4F39;
+    --Light: #fff;
+    --Light-grey: #F6F6F6;
+    --input-text: #ABABAB;
+}
+
+.navbar{
+    width: 1920px;
+    height: 160px;
+    margin: 30px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.navbar .Primary-bar .btn{
+    display: inline-block;
+    height: 56px;
+    padding: 17px 30px;
+    border-radius: 4px;
+    background: var(--Dark-green);
+    color: var(--Light);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.navbar .email-bar{
+    display: inline-block;
+    width: 510px;
+    padding: 16px;
+    border-radius: 4px;
+    background: var(--Light-grey);
+    color: var(--input-text);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.navbar .email-bar>input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--input-text);
+    margin-right: 200px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar .email-bar input img{
+    position: absolute;
+    top: -10%;
+}
+
+.navbar .Primary-bar{
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 72.5%;
+    transform: translate(-30%,-50%);
+}
+
+.navbar .Primary-bar input{
+    color: var(--Dark-green);
+    width: 125px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.navbar .Primary-bar li img{
+    position: absolute;
+    top: 25%;
+}
+
+.navbar .Primary-bar li:first-child{
+    margin-right: 30px;
+}
+
+.navbar .Primary-bar li:nth-child(2){
+    margin-right: 24px;
+}
+
+
+.navbar .menu-list{
+    display: inline-block;
+    line-height: normal;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    transform: translate(-65%,-50%);
+
+}
+
+.navbar .Primary-bar li, .navbar .menu-list li, .navbar .Secondary-bar li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.navbar .menu-list li>button{
+    display: inline-block;
+    color: var(--input-text);
+    margin-right: 32px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.navbar .menu-list li button img{
+    position: absolute;
+    top: -10%;
+}
+
+.navbar .Secondary-bar{
+    display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 72.5%;
+    transform: translate(-40%,-50%);
+}
+
+.navbar .Secondary-bar input{
+border: none;
+color: var(--input-text);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.navbar .Secondary-bar li:first-child{
+    margin-right: 16px;
+}
+
+.navbar .Secondary-bar li:nth-child(2){
+    margin-right: 92px;
+}
+
+.navbar .Secondary-bar li:nth-child(3){
+    margin-right: 16px;
+}
+
+.navbar .Secondary-bar li img{
+    position: absolute;
+    top: -10%;
+}
+
+.navbar hr{
+    width: 1817px;
+    height: 0px;
+    stroke-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    stroke: var(--Light-grey);
+}
